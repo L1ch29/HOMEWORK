@@ -17,12 +17,14 @@ print(f'{x}<{z}>{y}')
 10<20>5
 True
 
+
 #Task 3
 user_name=input("Name:")
 surname= input(f"Hello {user_name}! Enter surname:")
 patronymic= input(f"Please {user_name} {surname}, Enter patronymic:")
 date_of_birth= input(f"{user_name} {surname} {patronymic}, Enter Date of birth:")
 full_name= input(f"Hello {user_name}! Enter Full name:")
+
 print(f"Full name: {full_name}")
 print(f"Name: {user_name}")
 print(f"Surname: {surname}")
