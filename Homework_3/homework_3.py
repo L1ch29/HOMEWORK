@@ -18,7 +18,7 @@ if operation == '+':
             print(f"{first_number} + {second_number} = {int(first_number) + int(second_number)}")
         else:
             print(f"{second_number} is not digit")
-    elif first_number.isdigit():
+    elif first_number.isalpha():
           second_number = input("Second value: ")
           print(f"{first_number} + {second_number} = {first_number + second_number}")
     else:
@@ -34,7 +34,7 @@ if operation == '-':
             print(f"{first_number} - {second_number} = {int(first_number) - int(second_number)}")
         else:
             print(f"{second_number} is not digit")
-    elif first_number.isdigit():
+    elif first_number.isalpha():
         second_number = input("Second value: ")
         print(f"{first_number} - {second_number} = {first_number - second_number}")
     else:
@@ -49,7 +49,7 @@ if operation == '*':
             print(f"{first_number} * {second_number} = {int(first_number) * int(second_number)}")
         else:
             print(f"{second_number} is not digit")
-    elif first_number.isdigit():
+    elif first_number.isalpha():
         second_number = input("Second value: ")
         print(f"{first_number} * {second_number} = {first_number * second_number}")
     else:
@@ -64,7 +64,7 @@ if operation == '/':
             print(f"{first_number} / {second_number} = {int(first_number) / int(second_number)}")
         else:
             print(f"{second_number} is not digit")
-    elif first_number.isdigit():
+    elif first_number.isalpha():
         second_number = input("Second value: ")
         print(f"{first_number} / {second_number} = {first_number / second_number}")
     else:
