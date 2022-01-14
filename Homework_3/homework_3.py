@@ -73,11 +73,15 @@ if operation == '/':
 
 
 
+
 elif operation == '//':
     print("// is not developed yet'⌒' ")
 
 elif operation == '%':
     print("% is not developed yet'⌒' ")
+
+else:
+    print('₪NOT VALID OPERATION₪')
 
 
 
