@@ -8,6 +8,7 @@ print(triple_quotes)
 operation = input("""ஜ We have few options: +; -; /; *. ஜ
 Choose the one you like:""")
 
+
 #Operation +
 if operation == '+':
     first_number = input("Enter first value: ")
