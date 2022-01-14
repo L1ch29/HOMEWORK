@@ -24,6 +24,7 @@ if operation == '+':
     else:
         print(f"{first_number} is not digit or letter")
 
+
 #Operation -
 if operation == '-':
     first_number = input("Enter first value: ")
