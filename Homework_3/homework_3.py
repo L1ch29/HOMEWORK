@@ -19,8 +19,8 @@ if operation == '+':
         else:
             print(f"{second_number} is not digit")
     elif first_number.isdigit():
-        second_number = input("Second value: ")
-        print(f"{first_number} + {second_number} = {first_number + second_number}")
+          second_number = input("Second value: ")
+          print(f"{first_number} + {second_number} = {first_number + second_number}")
     else:
         print(f"{first_number} is not digit or letter")
 
