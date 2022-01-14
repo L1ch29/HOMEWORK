@@ -23,7 +23,6 @@ if operation == '+':
     else:
         print(f"{first_number} is not digit or letter")
 
-
 #Operation -
 if operation == '-':
     first_number = input("Enter first value: ")
@@ -38,7 +37,6 @@ if operation == '-':
         print(f"{first_number} - {second_number} = {first_number - second_number}")
     else:
         print(f"{first_number} is not digit or letter")
-
 
 #Operation *
 if operation == '*':
@@ -55,7 +53,6 @@ if operation == '*':
     else:
         print(f"{first_number} is not digit or letter")
 
-
 #Operation /
 if operation == '/':
     first_number = input("Enter first value: ")
@@ -70,8 +67,6 @@ if operation == '/':
         print(f"{first_number} / {second_number} = {first_number / second_number}")
     else:
         print(f"{first_number} is not digit or letter")
-
-
 
 
 elif operation == '//':
