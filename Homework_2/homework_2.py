@@ -58,10 +58,7 @@ print(f"Name: {user_name}")
 print(f"Surname: {surname}")
 print(f"Patronymic: {patronymic}")
 print(f"Date of birth: {date_of_birth}")
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Sec
+
 
 
 
