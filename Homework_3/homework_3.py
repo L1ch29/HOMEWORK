@@ -26,7 +26,7 @@ if operation == '+':
 
 
 #Operation -
-if operation == '-':
+elif operation == '-':
     first_number = input("Enter first value: ")
     if first_number.isdigit():
         second_number = input("Second value: ")
@@ -40,8 +40,9 @@ if operation == '-':
     else:
         print(f"{first_number} is not digit or letter")
 
+
 #Operation *
-if operation == '*':
+elif operation == '*':
     first_number = input("Enter first value: ")
     if first_number.isdigit():
         second_number = input("Second value: ")
@@ -55,8 +56,9 @@ if operation == '*':
     else:
         print(f"{first_number} is not digit or letter")
 
+
 #Operation /
-if operation == '/':
+elif operation == '/':
     first_number = input("Enter first value: ")
     if first_number.isdigit():
         second_number = input("Second value: ")
@@ -69,16 +71,22 @@ if operation == '/':
         print(f"{first_number} / {second_number} = {first_number / second_number}")
     else:
         print(f"{first_number} is not digit or letter")
-
-
 elif operation == '//':
     print("// is not developed yet'⌒' ")
-
 elif operation == '%':
     print("% is not developed yet'⌒' ")
-
 else:
     print('₪NOT VALID OPERATION₪')
+
+
+
+
+
+
+
+
+
+
 
 
 
