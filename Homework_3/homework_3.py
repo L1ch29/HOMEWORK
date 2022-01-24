@@ -34,9 +34,6 @@ elif operation == '-':
             print(f"{first_number} - {second_number} = {int(first_number) - int(second_number)}")
         else:
             print(f"{second_number} is not digit")
-    elif first_number.isdigit():
-        second_number = input("Second value: ")
-        print(f"{first_number} - {second_number} = {first_number - second_number}")
     else:
         print(f"{first_number} is not digit or letter")
 
@@ -50,9 +47,6 @@ elif operation == '*':
             print(f"{first_number} * {second_number} = {int(first_number) * int(second_number)}")
         else:
             print(f"{second_number} is not digit")
-    elif first_number.isdigit():
-        second_number = input("Second value: ")
-        print(f"{first_number} * {second_number} = {first_number * second_number}")
     else:
         print(f"{first_number} is not digit or letter")
 
@@ -66,9 +60,6 @@ elif operation == '/':
             print(f"{first_number} / {second_number} = {int(first_number) / int(second_number)}")
         else:
             print(f"{second_number} is not digit")
-    elif first_number.isdigit():
-        second_number = input("Second value: ")
-        print(f"{first_number} / {second_number} = {first_number / second_number}")
     else:
         print(f"{first_number} is not digit or letter")
 elif operation == '//':
