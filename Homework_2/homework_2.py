@@ -51,9 +51,10 @@ user_name=input("Name:")
 surname= input(f"Hello {user_name}! Enter surname:")
 patronymic= input(f"Please {user_name} {surname}, Enter patronymic:")
 date_of_birth= input(f"{user_name} {surname} {patronymic}, Enter Date of birth:")
-full_name= input(f"Hello {user_name}! Enter Full name:")
+full_name= input(f"Hello {user_name}! Enter ПІП:")
 
-print(f"Full name: {full_name}")
+
+print(''.join(word[0] for word in full_name.split(" ")).upper())
 print(f"Name: {user_name}")
 print(f"Surname: {surname}")
 print(f"Patronymic: {patronymic}")
