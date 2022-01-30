@@ -19,6 +19,8 @@ while True:
     print(type(list[index]))
     index += 1
 
+#ДАЛІ Я ПРОСТО ДАЖЕ НЕ ЗНАЙШОВ ЯК МОЖНА ЗРОБИТИ ЧЕРЕЗ WHILE(
+
 #Task 4
 #1
 list_1= [90, 68, 23, 73, 45, 9, 100]
