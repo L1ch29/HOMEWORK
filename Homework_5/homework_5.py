@@ -1,5 +1,6 @@
 #Task 2
 #2.1
+import random
 list = []
 index = 0
 while index < 10:
