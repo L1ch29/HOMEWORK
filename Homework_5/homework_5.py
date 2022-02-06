@@ -54,7 +54,10 @@ print(list)
 while index < len(list):
     print(list[index])
     index += 1
-
+#2.2
+list_4 = ([random.randint(0, 100)
+for element in range(0, 10)])
+print(list_4)
 #Task 5
 
 
