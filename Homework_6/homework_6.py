@@ -2,7 +2,7 @@ import random
 import math
 #Task 2
 members_dict = {
-    'Dad': {
+    'Dad-Michael': {
        'Name':'Michael',
        'Age':38,
        'Sex':'male',
@@ -10,7 +10,7 @@ members_dict = {
        'Phone':'555-111-3333',
        'Profession':'Director'},
 
-    'Mum': {
+    'Mum-Clara': {
        'Name':'Clara',
         'Age':30,
         'Sex':'female',
@@ -18,7 +18,7 @@ members_dict = {
         'Phone':'999-333-1111',
         'Profession':'Accountant'},
 
-    'Son': {
+    'Son-Kobe': {
         'Name':'Kobe',
         'Age':9,
         'Sex':'male',
@@ -26,7 +26,7 @@ members_dict = {
         'Phone':'777-222-4444',
         'Profession':'Academy student num.5'},
 
-    'Dog':{
+    'Dog-Oscar':{
          'Name':'Oscar',
          'Age':2,
          'Sex':'male',
@@ -34,10 +34,13 @@ members_dict = {
          'Nationality':'Canadian',
     }
 }
-print(len(members_dict))
-
 for member, member_info in members_dict.items():
      print(f"{member}:{member_info}")
+
+
+#Task 3
+for member in members_dict:
+     print(member)
 
 
 #Task 4
