@@ -32,7 +32,7 @@ members_dict = {
 print(len(members_dict))
 
 
-#Task 3
+
 for member, member_info in members_dict.items():
      print(f"{member}:{member_info}")
 
