@@ -3,8 +3,8 @@ list= (1, 9, 10, 90, 100, 900, 1000, 9000)
 index=0
 summ=0
 while index<len(list):
-    summ=summ+list[index]
-    index=index+1
+    summ+=list[index]
+    index+=1
 print("summ =",summ)
 
 #Task 3
