@@ -29,6 +29,11 @@ for index in list_1:
     if index>ln:
         ln=index
 print("Largest element is: ",ln)
+for index in list_1:
+    if index<ln:
+        ln=index
+print("Minimum number:",ln)
+
 
 list_2=[38, 9, 45, 4, 85, 150, 23 ]
 ln = list_2[0] if list_2 else None
@@ -36,6 +41,12 @@ for index in list_2:
     if index>ln:
         ln=index
 print("Largest element is: ",ln)
+for index in list_2:
+    if index<ln:
+        ln=index
+print("Minimum number:",ln)
+
+
 
 
 #2
