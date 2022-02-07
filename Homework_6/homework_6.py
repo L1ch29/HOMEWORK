@@ -6,32 +6,32 @@ members_dict = {
        'Name':'Michael',
        'Age':38,
        'Sex':'male',
-       'Nationality':'American',
+       'Nationality':'american',
        'Phone':'555-111-3333',
-       'Profession':'Director'},
+       'Profession':'director'},
 
     'Mum-Clara': {
        'Name':'Clara',
         'Age':30,
         'Sex':'female',
-        'Nationality':'Jewish',
-        'Phone':'999-333-1111',
-        'Profession':'Accountant'},
+        'Nationality':'jewish',
+        'Phone':'999-3333-1111',
+        'Profession':'accountant'},
 
     'Son-Kobe': {
         'Name':'Kobe',
         'Age':9,
         'Sex':'male',
-        'Nationality':'American-Jew',
+        'Nationality':'american-Jew',
         'Phone':'777-222-4444',
-        'Profession':'Academy student num.5'},
+        'Profession':'academy student num.5'},
 
     'Dog-Oscar':{
          'Name':'Oscar',
          'Age':2,
          'Sex':'male',
-         'Breed': 'Labrador',
-         'Nationality':'Canadian',
+         'Breed': 'labrador',
+         'Nationality':'canadian',
     }
 }
 for member, member_info in members_dict.items():
