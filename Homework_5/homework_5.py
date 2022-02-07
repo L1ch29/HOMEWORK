@@ -72,7 +72,7 @@ elif min_number:
     print(password)
 else:
     print("Not enough numbers'⌒'")
-if len(password)>15:
+if len(password)>35:
     max_number=False
     print("Too many values'⌒'")
 
