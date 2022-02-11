@@ -63,6 +63,9 @@ import random
 # for element in range(0, 10)])
 # print(list_4)
 
+#2.3
+ 
+
 
 
 #Task 5
