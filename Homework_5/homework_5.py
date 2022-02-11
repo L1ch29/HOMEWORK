@@ -50,7 +50,9 @@ import random
 # while index < 10:
 #     list.append(random.randint(0, 100))
 #     index += 1
+#
 # print(list)
+# index=0
 # while index < len(list):
 #     print(list[index])
 #     index += 1
@@ -64,8 +66,10 @@ import random
 
 
 #Task 5
+password=[]
 password= input("₪Password₪ : ")
 min_number= False
+
 if len(password) > 8:
     min_number= True
 elif min_number:
@@ -76,13 +80,29 @@ if len(password)>35:
     max_number=False
     print("Too many values'⌒'")
 
-else:
-    print("₪Enter password again₪ :")
-password_2 = input()
-if password_2 == password:
-    print("OK")
-else:
-    print("Different!")
+for element in password:
+    if element.isdigit():
+        print(element)
+for element in password:
+    if element.isupper():
+        print(element)
+for element in password:
+    if element.islower():
+        print(element)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
