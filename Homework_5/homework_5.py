@@ -66,29 +66,29 @@ import random
 
 
 #Task 5
-password=[]
-password= input("₪Password₪ : ")
-min_number= False
-
-if len(password) > 8:
-    min_number= True
-elif min_number:
-    print(password)
-else:
-    print("Not enough numbers'⌒'")
-if len(password)>35:
-    max_number=False
-    print("Too many values'⌒'")
-
-for element in password:
-    if element.isdigit():
-        print(element)
-for element in password:
-    if element.isupper():
-        print(element)
-for element in password:
-    if element.islower():
-        print(element)
+# password=[]
+# password= input("₪Password₪ : ")
+# min_number= False
+#
+# if len(password) > 8:
+#     min_number= True
+# elif min_number:
+#     print(password)
+# else:
+#     print("Not enough numbers'⌒'")
+# if len(password)>35:
+#     max_number=False
+#     print("Too many values'⌒'")
+#
+# for element in password:
+#     if element.isdigit():
+#         print(element)
+# for element in password:
+#     if element.isupper():
+#         print(element)
+# for element in password:
+#     if element.islower():
+#         print(element)
 
 
 
