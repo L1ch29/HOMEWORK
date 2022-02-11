@@ -1,10 +1,10 @@
 import random
 import math
 #Task 1
-# list=[]
-# list = ((random.randint(0, 100))
-# for index, value in enumerate(range(1, 20)))
-# print(list)
+list=[]
+list = ((random.randint(0, 100))
+for index, value in enumerate(range(1, 20)))
+print(list)
 
 
 #Task 2
