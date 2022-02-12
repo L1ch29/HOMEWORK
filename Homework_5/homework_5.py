@@ -67,27 +67,6 @@ import random
 
 #Task 3
 #3.1
-# number = 1
-# while True:
-#     if number % 2 != 0:
-#         number += 1
-#         continue
-#     print(number)
-#     number += 1
-#     if number == 1128275:
-#         break
-#
-# list= []
-# index = 0
-# while index < 10:
-#     list.append(random.randint(0, 100))
-#     index += 1
-# print(list)
-# index=0
-# while index < len(list):
-#     print(list[index])
-#     index += 1
-
 list=[]
 index=0
 while True:
