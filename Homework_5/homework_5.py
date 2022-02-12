@@ -24,8 +24,8 @@ import random
 #         list_of_unique_numbers.append(number)
 #         return list_of_unique_numbers
 # print(get_unique_numbers(numbers))
-#
-#
+
+
 # 1.2
 # list_3= []
 # for index in list_1:
@@ -56,6 +56,7 @@ import random
 # for element in range(0, 10)])
 # print(list_4)
 
+
 #2.3
 # index=[]
 # list =([random.randint(10, 100)
@@ -67,17 +68,24 @@ import random
 
 #Task 3
 #3.1
-list=[]
-index=0
-while True:
-    index=(random.randint(20, 100))
-    index += 1
-    if index // 2 == 0 or index // 4 ==0:
-        continue
-    print(index)
-    if index == 100:
-        break
+# index=0
+# while True:
+#     index=(random.randint(20, 100))
+#     index += 1
+#     if index % 2 == 0 or index % 4 ==0:
+#         continue
+#     print(index)
+#     if index == 100:
+#         break
 
+
+#3.2
+
+
+
+#Task 4
+list=(40, 33, 50, 75, 38)
+print(list.index(40))
 
 
 
