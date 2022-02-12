@@ -1,4 +1,5 @@
 #Task 1
+#MAX NUMBER
 def max_number(number):
     ln = list[0] if list else None
     for index in number:
@@ -10,6 +11,7 @@ list = [10, 20, 30, 40, 50]
 list_with_max= max_number(list)
 print(list_with_max)
 
+#MIN NUMBER
 def min_number(number):
     ln = list[0] if list else None
     for index in number:
