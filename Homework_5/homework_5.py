@@ -58,7 +58,11 @@ import random
 # print(list_4)
 
 #2.3
-
+# index=[]
+# list =([random.randint(10, 100)
+#          for index in range(0,10)])
+# list.append(index)
+# print(list)
 
 
 
