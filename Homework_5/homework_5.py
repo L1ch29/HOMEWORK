@@ -84,8 +84,8 @@ import random
 
 
 #Task 4
-list=(40, 33, 50, 75, 38)
-print(list.index(40))
+# list=(40, 33, 50, 75, 38)
+# print(list.index(40))
 
 
 
