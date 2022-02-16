@@ -70,6 +70,7 @@
 #     print('₪NOT VALID OPERATION₪')
 
 
+#                                           VLAD'S NEW CALCULATOR
 
 def welcome():
     return ("""
