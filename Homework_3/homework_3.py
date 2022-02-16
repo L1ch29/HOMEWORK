@@ -72,62 +72,76 @@
 
 
 def welcome():
-    print("""
+    return ("""
  ●▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬●
   ⠀⠀ ⠀    •●Welcome To Vlad's Calculator●•
  ●▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬●
  """)
 
-def count():
-    print(count)
-operations = input("""
-ஜWe have few optionsஜ
-Choose the one you like: +, -, /, *, %, // : 
-""")
+# Operation +
+def addition(x, y):
+   return x + y;
+# Operation -
+def subtraction(x, y):
+   return x - y;
+# Operation *
+def multiplication(x, y):
+   return x * y;
+# Operation /
+def division(x, y):
+   return x / y;
+# Operation %
+def result_of_division(x, y):
+    return x % y
+# Operation //
+def integer_division(x, y):
+    return x // y
+# Operation **
+def exponentiation(x, y):
+    return x ** y
+
+print("""
+ ●▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬●
+  ⠀⠀ ⠀    •●Welcome To Vlad's Calculator●•
+ ●▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬●
+ """)
+
+print("ஜWe have few optionsஜ, choose the one you like: ")
+print("1. Addition +")
+print("2. Subtraction -")
+print("3. Multiplication *")
+print("4. Division /")
+print("5. Result of division %")
+print("6. Integer division //")
+print("7. Exponentiation **")
+operation = input("Enter operation(1,2,3,4,5,6,7): ")
 
 first_number = int(input("Enter first value: "))
 second_number = int(input("Enter second value: "))
 
 # Operation +
-if operations == '+':
-    print("{} + {} = ".format(first_number, second_number ))
-    print(first_number + second_number)
+if operation == '1':
+   print(first_number, "+", second_number, "=", addition(first_number, second_number ))
 # Operation -
-elif operations == '-':
-    print("{} - {} = ".format(first_number, second_number))
-    print(first_number - second_number)
+elif operation == '2':
+   print(first_number, "-", second_number, "=", subtraction(first_number, second_number ))
 # Operation *
-elif operations == '*':
-    print("{} * {} = ".format(first_number, second_number))
-    print(first_number * second_number)
+elif operation == '3':
+   print(first_number, "*", second_number, "=", multiplication(first_number, second_number ))
 # Operation /
-elif operations == '/':
-    print("{} / {} = ".format(first_number, second_number))
-    print(first_number / second_number)
+elif operation == '4':
+   print(first_number, "/", second_number, "=", division(first_number, second_number ))
 # Operation %
-elif operations == '%':
-    print("{} % {} = ".format(first_number, second_number))
-    print(first_number % second_number)
+elif operation == '5':
+   print(first_number, "%", second_number, "=", result_of_division(first_number, second_number ))
 # Operation //
-elif operations == '//':
-    print("{} // {} = ".format(first_number, second_number))
-    print(first_number // second_number)
+elif operation == '6':
+   print(first_number, "//", second_number, "=", integer_division(first_number, second_number ))
 # Operation **
-elif operations == '**':
-    print("{} ** {} = ".format(first_number, second_number))
-    print(first_number ** second_number)
+elif operation == '7':
+   print(first_number, "**", second_number, "=", exponentiation(first_number, second_number ))
+
 else:
     print('₪NOT VALID OPERATION₪')
 
 
-def again():
-    print(again)
-count_again = input('''
-Do you want to calculate again?
-Please type Y for YES or N for NO.
-''')
-if count_again.upper() == 'Y':count()
-elif count_again.upper() == 'N':print('See you later.')
-else:
-    again()
-    count()
