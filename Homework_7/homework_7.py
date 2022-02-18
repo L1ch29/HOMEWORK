@@ -25,7 +25,7 @@ print(list_with_min)
 
 
 
-#Task 4                                     VLAD'S NEW CALCULATOR
+#Task 3                                    VLAD'S NEW CALCULATOR
 
 def welcome():
     return ("""
