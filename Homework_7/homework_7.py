@@ -25,6 +25,17 @@ print(list_with_min)
 
 
 
+#Task 2
+dictionary={'a':29}
+
+def custom_function( key,value,dictionary):
+
+        return dictionary,key,value
+print(custom_function('Vlad' ,13, dictionary))
+
+
+
+
 #Task 3                                    VLAD'S NEW CALCULATOR
 
 def welcome():
